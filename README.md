@@ -38,7 +38,7 @@ LLM-for-business-content-creation/main/
 ├── data/
 │   └── dataset.json               # Dataset for LLM training
 └── examples/
-    └── text_evaluation.py         # API-usager example
+    └── text_evaluation.py         # API-usage example
 ```
 
 ## 📥 Input Data Format
