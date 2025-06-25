@@ -55,14 +55,23 @@ An example input:
 }
 ```
 
-Несколько текстов содержат отметку Error для метрики AlinaEstimator - для получения числовой оценки по этой метрике их **содержание необходимо сократить** без потери смысла.
+Several texts contain the Error mark for the AlinaEstimator metric - to obtain a numerical score for this metric, their **content must be shortened** without losing meaning.
+
+---
+
+## 🛠️ Tools & Libraries
+
+- `requests` – API calls
+- `transformers` – LLM interaction
 
 ---
 
 ## 📊 Evaluation Process
 
 1. To get an assessment based on ARIEstimator and AlinaEstimator text metrics, use the [Swagger](http://skolkovo.cbrai.ru/docs) verifier API
-Limitations: no more than 100 requests per hour
+Limitations: 
+- no more than 400 words in one text fragment
+- no more than 100 requests per hour
 
 2. To get an expert assessment of the text quality, send an email to akulichevda@cbr.ru and kostornoyav@cbr.ru in the following format:
 - guid of the original text
@@ -98,7 +107,7 @@ MIT License
 
 ## ✅ Validation
 
-1. We will install your - it should not have any errors during installation
+1. We will install your model - it should not have any errors during installation
 2. We will run it in real time to improve the quality of the texts validation dataset
 3. We will receive assessments of the improved texts by ARIEstimator and AlinaEstimator
 4. We will perform an expert assessment of the texts
