@@ -14,7 +14,7 @@ Readability - ARIEstimator
 Transparency - AlinaEstimator
 [Research describing the tools (in Russian)](https://rjmf.econs.online/2021/3/clarity-of-monetary-policy-communication/)
 
-These metrics are quantitative, and although they allow you to effectively measure the quality of communications, they do not exclude expert assessment.
+These metrics are quantitative, and although they allow you to effectively measure the quality of communications, they need support by expert assessment.
 Therefore, we have supplemented them with criteria that experts will be guided by when giving their assessments:
 1) Clarity/consistency of logical transitions within a sentence, between sentences, paragraphs.
 2) Completeness/sufficiency of arguments for the conclusion.
