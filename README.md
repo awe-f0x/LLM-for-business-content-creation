@@ -73,7 +73,7 @@ Limitations:
 - no more than 400 words in one text fragment
 - no more than 100 requests per hour
 
-2. To get an expert assessment of the text quality, send an email to akulichevda@cbr.ru and kostornoyav@cbr.ru in the following format:
+2. To get an expert assessment of the text quality, send an email to dimaakulichev@yandex.ru and small-horse@yandex.ru in the following format:
 - guid of the original text
 - original text
 - processed text
@@ -113,4 +113,6 @@ MIT License
 4. We will perform an expert assessment of the texts
 5. The final assessment will contain all 3 metrics: ARIEstimator, AlinaEstimator and the assessment of the experts.
 Additional points can be awarded separately by our Expert Team
+
+For questions or clarifications, please contact your project mentor (telegram: @DmBzzz, @awe_fox)
 
