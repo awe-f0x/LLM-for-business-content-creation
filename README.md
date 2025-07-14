@@ -114,5 +114,5 @@ MIT License
 5. The final assessment will contain all 3 metrics: ARIEstimator, AlinaEstimator and the assessment of the experts.
 Additional points can be awarded separately by our Expert Team
 
-For questions or clarifications, please contact your project mentor (telegram: @DmBzzz, @awe_fox)
+For questions or clarifications, please contact your project mentor (telegram: [Dmitriy Bazyukin](https://t.me/DmBzzz), [Andrey Kostornoy](https://t.me/awe_fox))
 
