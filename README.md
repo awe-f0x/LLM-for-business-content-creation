@@ -1,26 +1,30 @@
 # 🌟 LLM-for-business-content-creation 🌟
 **GitHub Repository: `LLM-for-business-content-creation`**
 
-Within the framework of this project, an LLM is being created, which will be used to improve the quality of the Bank of Russia’s communications texts.
+Within the framework of this project, an LLM is being created, which will be used to improve the quality of the Bank of Russia’s communications.
 
 # Problem statement 
 
-Among the tools that central banks use to manage inflation, communications occupy a special place: they can increase the effectiveness of monetary policy (MP). Two key characteristics of effective official communication are transparency and readability.
-Transparency of communication is understood as the degree of disclosure of information about their decisions and their reasoning. Readability is defined as a set of all text parameters that help the reader quickly understand the information contained in it.
-Readability and transparency are important for any central bank audience. If the central bank communicates clearly, unambiguously and fully discloses the logic of decision-making, then it is better understood by representatives of both a well-prepared audience (the financial sector, investors, analysts) and a wider public (the real sector, the population).
+Quality communications are crucial for any central bank. If a regulator communicates clearly, unambiguously and fully discloses the logic behind its decisions, its strategy is better understood by both professional community (such as financial experts, investors, analysts) and wider public (real sector and ordinary citizens).
+Clear official communications positively impact inflation expectations and increase overall trust to the Central Bank’s and other Ministries’ decisions leading countries to economic growth and prosperity.
+While nowadays most texts are created by humans – Natural Intelligence – who often tend to complex narrative full of professional terms, we would like to use AI to clarify and shorten them without distorting storyline or losing important details.
 
-To measure the quality of communication, 2 metrics are used:
-Readability - ARIEstimator
-Transparency - AlinaEstimator
+In this context, we suggest you to design and deploy an LLM, which will process texts on banking regulation and analytics in order to boost their transparency and readability:
+·         Transparency of communication is the degree of disclosure of information on the Regulator’s decisions and the underlying reasoning.
+·         Readability is a set of multiple text parameters helping the audience quickly understand the information contained.
+
+To measure the quality of the resulting communication we will use two metrics:
+·         For transparency – AlinaEstimator, that uses syntaxes’, lexical, morphology, phonetic, semantic and some other text characteristics.
+·         For readability – ARIEstimator that is based on the well-known FRE (Flesch Reading Ease) readability metrics.
+
 [Research describing the tools (in Russian)](https://rjmf.econs.online/2021/3/clarity-of-monetary-policy-communication/)
 
-These metrics are quantitative, and although they allow you to effectively measure the quality of communications, they need support by expert assessment.
-Therefore, we have supplemented them with criteria that experts will be guided by when giving their assessments:
-1) Clarity/consistency of logical transitions within a sentence, between sentences, paragraphs.
-2) Completeness/sufficiency of arguments for the conclusion.
-3) Uniqueness of the logical conclusion made by the model (is it possible to make a different conclusion based on the presented facts/arguments).
-4) Comparison with the source for details lost during processing that affect the final conclusion.
-5) The number of arguments used that allowed the final conclusion to be made.
+These are quantitative metrics which allow measurement of the overall quality of communications. To ensure that the resulting texts comply with the non-quantitative criteria, they should also pass an expert assessment.
+Below are the key non-quantitative criteria to backbone the expert assessment:
+1) Clarity / consistency of logical transitions within a sentence, between sentences, paragraphs.
+2) Completeness / sufficiency of arguments for the conclusion.
+3) Uniqueness of the logical conclusions made by LLM (is it possible to make a different conclusion based on the presented facts / arguments).
+4) Loss of crucial details (against source text) impacting the final conclusion.
 
 
 ## 🎯 Objective
@@ -110,9 +114,9 @@ MIT License
 1. We will install your model - it should not have any errors during installation
 2. We will run it in real time to improve the quality of the texts validation dataset
 3. We will receive assessments of the improved texts by ARIEstimator and AlinaEstimator
-4. We will perform an expert assessment of the texts
-5. The final assessment will contain all 3 metrics: ARIEstimator, AlinaEstimator and the assessment of the experts.
-Additional points can be awarded separately by our Expert Team
+4. We will perform expert assessment of the resulting texts
+5. The final assessment will contain all 3 metrics: ARIEstimator, AlinaEstimator and expert assessment.
+Extra points can be awarded separately by the expert team for exceptional narrative style and client-ready solutions.
 
-For questions or clarifications, please contact your project mentor (telegram: [Dmitriy Bazyukin](https://t.me/DmBzzz), [Andrey Kostornoy](https://t.me/awe_fox))
+For questions or clarifications, please contact your project mentors (telegram: [Dmitriy Bazyukin](https://t.me/DmBzzz), [Andrey Kostornoy](https://t.me/awe_fox))
 
